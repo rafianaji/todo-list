@@ -1,0 +1,170 @@
+.App {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+$very-small: 0.5em !default;
+$small: 1em !default;
+$medium: 1.5em !default;
+$large: 2em !default;
+$very-large: 2.5em !default;
+
+.m-1 {
+  margin: $very-small;
+}
+.m-2 {
+  margin: $small;
+}
+.m-3 {
+  margin: $medium;
+}
+.m-4 {
+  margin: $large;
+}
+.m-5 {
+  margin: $very-large;
+}
+
+.mr-1 {
+  margin-right: $very-small;
+}
+.mr-2 {
+  margin-right: $small;
+}
+.mr-3 {
+  margin-right: $medium;
+}
+.mr-4 {
+  margin-right: $large;
+}
+.mr-5 {
+  margin-right: $very-large;
+}
+
+.ml-1 {
+  margin-left: $very-small;
+}
+.ml-2 {
+  margin-left: $small;
+}
+.ml-3 {
+  margin-left: $medium;
+}
+.ml-4 {
+  margin-left: $large;
+}
+.ml-5 {
+  margin-left: $very-large;
+}
+
+.mb-1 {
+  margin-bottom: $very-small;
+}
+.mb-2 {
+  margin-bottom: $small;
+}
+.mb-3 {
+  margin-bottom: $medium;
+}
+.mb-4 {
+  margin-bottom: $large;
+}
+.mb-5 {
+  margin-bottom: $very-large;
+}
+
+.mt-1 {
+  margin-top: $very-small;
+}
+.mt-2 {
+  margin-top: $small;
+}
+.mt-3 {
+  margin-top: $medium;
+}
+.mt-4 {
+  margin-top: $large;
+}
+.mt-5 {
+  margin-top: $very-large;
+}
+
+.p-1 {
+  padding: $very-small;
+}
+.p-2 {
+  padding: $small;
+}
+.p-3 {
+  padding: $medium;
+}
+.p-4 {
+  padding: $large;
+}
+.p-5 {
+  padding: $very-large;
+}
+
+.p-1 {
+  padding-right: $very-small;
+}
+.p-2 {
+  padding-right: $small;
+}
+.p-3 {
+  padding-right: $medium;
+}
+.p-4 {
+  padding-right: $large;
+}
+.p-5 {
+  padding-right: $very-large;
+}
+
+.p-1 {
+  padding-left: $very-small;
+}
+.p-2 {
+  padding-left: $small;
+}
+.p-3 {
+  padding-left: $medium;
+}
+.p-4 {
+  padding-left: $large;
+}
+.p-5 {
+  padding-left: $very-large;
+}
+
+.p-1 {
+  padding-bottom: $very-small;
+}
+.p-2 {
+  padding-bottom: $small;
+}
+.p-3 {
+  padding-bottom: $medium;
+}
+.p-4 {
+  padding-bottom: $large;
+}
+.p-5 {
+  padding-bottom: $very-large;
+}
+
+.p-1 {
+  padding-top: $very-small;
+}
+.p-2 {
+  padding-top: $small;
+}
+.p-3 {
+  padding-top: $medium;
+}
+.p-4 {
+  padding-top: $large;
+}
+.p-5 {
+  padding-top: $very-large;
+}
