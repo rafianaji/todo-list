@@ -1,10 +1,16 @@
+import { convertToYMD } from "../../Shared/Helpers/DateFormat";
 import { SET_TODO_LIST } from "../Constant";
 import Store from "../Store";
 
 function filterTodoList(data) {
   const result = [];
 
-  data.forEach((element) => {
+  const temp = data.map((el) => {
+    el.createdAt = convertToYMD(el.createdAt);
+    return el;
+  });
+
+  temp.forEach((element) => {
     if (result[element.status]) {
       result[element.status].list.push(element);
     } else {

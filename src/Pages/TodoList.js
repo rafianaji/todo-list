@@ -34,7 +34,7 @@ export default function TodoList() {
         disptach(editTodo("DELETE", selectedTodo));
       },
       show: modalActionType === "detail" && !selectedTodo.status && true,
-      danger: true,
+      danger: "true",
     },
     {
       title: "Create",
